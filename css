@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.avatar img {
+    width: 150px; /* Розмір  аватара */
+    height: 150px; /* Розмір  аватара */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px; /* Відступ між зображенням та текстом */
+}
+
+.text {
+    text-align: left;
+}
+
+.text span {
+    font-size: 24px; /* Розмір тексту */
+    font-weight: bold;
+    color: #333; /* Колір тексту */
+}
+
+.text .italic {
+    font-style: italic;
+    font-size: 20px; /* Розмір курсиву */
+}
+
+.social {
+    display: flex;
+    justify-content: left;
+    margin-top: 4px;
+}
+
+.social a {
+    margin: 1 0px; /* Відступ між аватарками */
+    text-decoration: none;
+}
+
+.social img {
+    width: 20px; /* Розмір аватара */
+    height: 20px; /* Розмір аватара */
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social img:hover {
+    transform: scale(1.4); /* Збільшення розміру при наведенні курсору */
+}
+.divider {
+    border-top: 2px solid #ddd; /* стиль лінії */
+    margin: 20px 0; /* відступи зверху і знизу лінії */
+}
+
+
+.information {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.info-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.info-item img {
+    width: 100px; /* Розмір зображення */
+    height: 100px; /* Розмір зображення */
+    border-radius: 50%;
+    margin-bottom: 10px; /* Відступ між зображенням та підписом */
+}
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item {
+    margin: 0 20px;
+}
+
+.contact-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.contact-item p {
+    margin-top: 10px;
+    font-size: 14px;
+}
